@@ -53,4 +53,4 @@ def make_prediction(n_clicks, feature1, feature2):
     return f"Predicted Class: {predicted_class}", fig
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server(debug=True,port=2034)
