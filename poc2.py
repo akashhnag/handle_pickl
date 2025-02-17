@@ -11,6 +11,8 @@ with open("model.pkl", "rb") as file:
 # Initialize Dash app
 app = dash.Dash(__name__)
 
+server=app.server
+
 app.layout = html.Div([
     html.H3("Simple AI Model Prediction"),
     
